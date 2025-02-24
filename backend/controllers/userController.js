@@ -4,7 +4,6 @@ import userModel from '../models/userModel.js'
 import jwt from 'jsonwebtoken'
 import authUser from '../middlewares/authUser.js'
 import { v2 as cloudinary } from 'cloudinary'
-import { doctors } from '../../frontend/src/assets/assets.js'
 import doctorModel from '../models/doctorModel.js'
 // Api to register user 
 
